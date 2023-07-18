@@ -1,0 +1,81 @@
+*{
+    font-family: 'Caprasimo', cursive;
+}
+section{
+    padding: 60px 0px;
+}
+:root{
+    --main-color:red; 
+    
+}
+
+header{
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center ;
+    background-size: cover;
+    height: 100vh;
+
+}
+.contant {
+    color: antiquewhite;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.icons .icon-item{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+   border: 2px solidwhite ;
+ width: 35px;
+ height: 35px;
+ background-color: rgb(61, 59, 59);
+    
+}
+.layer{
+    height: 100vh  ;
+    background-color: rgb(223, 219, 219) ;
+}
+.prgress-par{
+    height: 20px;
+   text-align: end;
+     
+}
+.prgress-par span {
+    text-align: start;
+    
+}
+.row .bt1{
+    border: 1px solid black;
+    font-size: 15px;
+
+}
+.row .bt2{
+    font-size: 15px;    
+}
+
+.row .bt1:hover {
+    
+    background-color: antiquewhite !important;
+    color: black;
+    border: 1px solid black;
+    
+}
+.row .bt2:hover{
+    background-color: black !important;
+    color: aliceblue !important;
+}
+
+#Services
+{
+    
+    background-color: rgb(237, 240, 243);
+}
+.Services ul li {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 50%  ;
+}
